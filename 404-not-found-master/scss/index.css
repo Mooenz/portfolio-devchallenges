@@ -41,6 +41,8 @@ body {
 .app__img {
   width: 100%;
   margin: 0 0 50px;
+  -ms-grid-column-align: center;
+      justify-self: center;
 }
 
 .app__title {

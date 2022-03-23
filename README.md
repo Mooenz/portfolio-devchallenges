@@ -9,7 +9,6 @@ Pequeño fragmentos de HTML, CSS/SCSS y JS :
   - [**Responsive Web Developer**](#responsive-web-developer)
     - [404 Not Found](#404-not-found)
     - [My team page](#my-team-page)
-    - [My team page](#my-team-page-1)
     - [Interior Consultant](#interior-consultant)
     - [Recipe page](#recipe-page)
     - [My Gallery](#my-gallery)
@@ -26,12 +25,6 @@ Los proyectos pertenecen a [Dev Challenges](https://devchallenges.io/).
 [Look at code here](https://github.com/mooenz/portfolio-devchallenges/tree/main/404-not-found-master)
 
 ![Desktop](./404-not-found-master/solution/mooenz-desktop.jpg)
-
-### My team page
-
-[Look at code here](https://github.com/mooenz/portfolio-devchallenges/tree/main/)
-
-![Desktop](.//solution/mooenz-desktop.jpg)
 
 ### My team page
 

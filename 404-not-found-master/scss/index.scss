@@ -19,6 +19,11 @@ body {
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: $gray3;
+}
+
 .app {
   display: flex;
   flex-direction: column;
@@ -92,29 +97,29 @@ body {
 
   .app {
     padding: 40px 77px 24px;
-  
+
     &__container {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
     }
-  
+
     &__body {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
     }
-  
+
     &__img {
       width: 540px;
       height: 448px;
     }
-  
+
     &__title {
       font-size: 6.4rem;
       line-height: 9.5rem;
       width: 586px;
     }
-  
+
     &__paragraph {
       font-size: 2.4rem;
       line-height: 3.6rem;

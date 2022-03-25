@@ -12,5 +12,5 @@ app.innerHTML = `
       <button class="app__button">Back to homepage</button>
     </div>
   </div>
-  <p class="app__footer">created by <a class="strong">Mooenz</a> - devChallenges.io</p>
+  <p class="app__footer">created by <a href="https://www.mooenz.me/" class="strong">Mooenz</a> - devChallenges.io</p>
 `;

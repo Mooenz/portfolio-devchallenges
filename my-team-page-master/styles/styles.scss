@@ -1,0 +1,132 @@
+.content {
+  margin: 71px 0 50px;
+
+  div {
+    max-width: 439px;
+  }
+
+  &__title {
+    font-family: var(--ptserif);
+    font-size: 36px;
+    font-weight: var(--bold);
+    line-height: 48px;
+    letter-spacing: -0.045em;
+    margin-bottom: 38px;
+  }
+
+  &__subtitle {
+    font-size: 18px;
+    font-weight: var(--semiBold);
+    line-height: 27px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+  &__body {
+    font-size: 14px;
+    font-weight: var(--regular);
+    line-height: 21px;
+  }
+}
+
+.team {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 300px);
+  gap: 18px;
+  margin: 0 auto;
+
+  &__avatar {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: 215px 29px;
+    gap: 5px;
+    width: 156px;
+
+    &:nth-child(even) {
+      align-self: flex-end;
+    }
+  }
+
+  &__image {
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__name {
+    grid-area: 2/1;
+    font-size: 14px;
+    font-size: var(--regular);
+    line-height: 21px;
+    margin-top: 5px;
+  }
+
+  &__career {
+    grid-area: 1/2;
+    font-family: var(--ptserif);
+    font-weight: var(--regular);
+    font-size: 10px;
+    line-height: 13px;
+    text-transform: uppercase;
+    writing-mode: vertical-lr;
+  }
+}
+
+.footer {
+  font-size: 0.875em;
+  line-height: 17px;
+  text-align: center;
+  color: var(--gray);
+  margin: 90px 0 24px;
+
+  &__strong {
+    font-weight: bold;
+  }
+}
+
+// media query:765px
+
+@media screen and (min-width: 765px) {
+  .content {
+  margin: 110px 0 70px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    &__body {
+      font-size: 18px;
+      line-height: 27px;
+    }
+  }
+
+  .team {
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, 450px);
+    
+    &__avatar {
+      grid-template-columns: 238px auto;
+      grid-template-rows: 341px 29px;
+
+      &:nth-child(even) {
+        align-self: start;
+      }
+
+      &:nth-child(2),
+      &:nth-child(5) {
+        align-self: flex-end;
+      }
+    }
+
+    &__name {
+      font-size: 18px;
+    }
+
+    &__career {
+      font-size: 12px;
+    }
+  }
+}

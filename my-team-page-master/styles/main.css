@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Poppins:wght@400;600&display=swap");
+:root {
+  --poppins: 'Poppins', sans-serif;
+  --ptserif: 'PT Serif', serif;
+  --bold: 700;
+  --semiBold: 600;
+  --regular: 400;
+  --gray: #a9a9a9;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: var(--poppins);
+  width: 375px;
+  margin: auto;
+}
+
+@media screen and (min-width: 765px) {
+  html,
+  body {
+    width: 100%;
+    max-width: 1024px;
+  }
+}
+
+.spaceLateral {
+  padding: 0 18px;
+}
+/*# sourceMappingURL=main.css.map */

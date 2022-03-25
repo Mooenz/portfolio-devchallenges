@@ -7,89 +7,111 @@
       content="width=device-width, initial-scale=1,
   maximum-scale=5"
     />
-
-    <link rel="icon" href="devchallenges.png" />
-
+    <link rel="icon" href="./assets/favicon-32x32.png" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
     <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="https://devchallenges.io/"
-    />
-
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
-
-    <title>Devchallenges</title>
-
-    <style>
-      body {
-        font-family: "Poppins", sans-serif;
-      }
-
-      ul {
-        padding-left: 24px;
-      }
-
-      li {
-        margin-bottom: 8px;
-      }
-
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
-
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
-
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
-
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
-
-      .welcome-text a {
-        color: #f7542e;
-      }
-    </style>
+    <title>My Team Page - Mooenz</title>
   </head>
   <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
+    <main>
+      <!-- Content -->
+      <section class="content spaceLateral">
+        <h1 class="content__title">The creative crew</h1>
+        <div>
+          <h2 class="content__subtitle">Who we are</h2>
+          <p class="content__body">
+            We are team of creatively diverse. driven. innovative individuals
+            working in various locations from the world.
+          </p>
+        </div>
+      </section>
+      <!-- Team -->
+      <section class="team spaceLateral">
+        <!-- Person 1 -->
+        <div class="team__avatar">
+          <figure class="team__image">
+            <img
+              src="./assets/photo1.png"
+              alt="Bill Mahoney"
+              height="209px"
+              width="139px"
+            />
+          </figure>
+          <h3 class="team__name">Bill Mahoney</h3>
+          <p class="team__career">Product owner</p>
+        </div>
+        <!-- Person 2 -->
+        <div class="team__avatar">
+          <figure class="team__image">
+            <img
+              src="./assets/photo2.png"
+              alt="Saba Cabrera"
+              height="209px"
+              width="139px"
+            />
+          </figure>
+          <h3 class="team__name">Saba Cabrera</h3>
+          <p class="team__career">Art director</p>
+        </div>
+        <!-- Person 3 -->
+        <div class="team__avatar">
+          <figure class="team__image">
+            <img
+              src="./assets/photo3.png"
+              alt="Shae Le"
+              height="209px"
+              width="139px"
+            />
+          </figure>
+          <h3 class="team__name">Shae Le</h3>
+          <p class="team__career">Tech Lead</p>
+        </div>
+        <!-- Person 4 -->
+        <div class="team__avatar">
+          <figure class="team__image">
+            <img
+              src="./assets/photo4.png"
+              alt="Saba Cabrera"
+              height="209px"
+              width="139px"
+            />
+          </figure>
+          <h3 class="team__name">Skylah Lu</h3>
+          <p class="team__career">UX Designer</p>
+        </div>
+        <!-- Person 5 -->
+        <div class="team__avatar">
+          <figure class="team__image">
+            <img
+              src="./assets/photo5.png"
+              alt="Saba Cabrera"
+              height="209px"
+              width="139px"
+            />
+          </figure>
+          <h3 class="team__name">Griff Richards</h3>
+          <p class="team__career">Developer</p>
+        </div>
+        <!-- Person 6 -->
+        <div class="team__avatar">
+          <figure class="team__image">
+            <img
+              src="./assets/photo6.png"
+              alt="Saba Cabrera"
+              height="209px" 
+              width="139px"
+            />
+          </figure>
+          <h3 class="team__name">Stan John</h3>
+          <p class="team__career">Developer</p>
+        </div>
+      </section>
 
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
-        </p>
-      </div>
-
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
-      </ul>
-    </div>
+      <p class="footer spaceLateral">created by <span class="footer__strong">Mooenz</span> - devChallenges.io</p>
+    </main>
   </body>
 </html>

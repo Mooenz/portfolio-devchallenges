@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@400;500;700&family=Montserrat:wght@300;500;700&display=swap");
+:root {
+  --black: #181719;
+  --white: #ffffff;
+  --gray: #828282;
+  --crimson: 'Crimson Pro', serif;
+  --lora: 'Lora', serif;
+  --montserrat: 'Montserrat', sans-serif;
+}
+
+html,
+body {
+  background-color: var(--black);
+  color: var(--white);
+  font-family: var(--montserrat);
+  height: 100vh;
+  min-height: 48.5rem;
+  min-width: 23.4375rem;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+ul {
+  list-style: none;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.spaceLateral {
+  padding: 0 0.75rem;
+}
+
+@media screen and (min-width: 50rem) {
+  .spaceLateral {
+    padding: 0 2.5rem;
+  }
+}
+
+@media screen and (min-width: 76.25rem) {
+  .spaceLateral {
+    padding: 0 0;
+  }
+}
+/*# sourceMappingURL=main.css.map */

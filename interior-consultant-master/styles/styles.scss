@@ -1,0 +1,283 @@
+// HEADER
+.header {
+  margin: 0 auto 2.5rem;
+  max-width: 75rem;
+  padding-top: 1.25rem;
+  width: 100%;
+
+  @media screen and (min-width: 50rem) {
+    padding-top: 40px;
+  }
+
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  &__logo {
+    border: 0.0625rem solid var(--white);
+    padding: 0.5rem;
+    font-family: var(--crimson);
+    font-size: 0.875rem;
+    font-weight: 200;
+    text-transform: uppercase;
+
+    &:hover {
+      color: var(--black);
+      background-color: var(--white);
+    }
+  }
+
+  &__list {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--black);
+    z-index: 1;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+
+    @media screen and (min-width: 50rem) {
+      position: initial;
+      display: flex;
+      gap: 4.375rem;
+    }
+
+    &Show {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+
+      @media screen and (min-width: 50rem) {
+        flex-direction: row;
+        justify-content: initial;
+        align-items: initial;
+        gap: 4.375rem;
+      }
+    }
+
+    li {
+      cursor: pointer;
+
+      &:nth-child(1) {
+        font-weight: 700;
+        border-bottom: 2px solid var(--white);
+        padding-bottom: 8px;
+      }
+    }
+  }
+
+  &__burgerIco {
+    width: 1.7813rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3125rem;
+    cursor: pointer;
+
+    div {
+      width: 100%;
+      height: 0.1875rem;
+      background-color: var(--white);
+    }
+
+    &Close {
+      transition-duration: 0.5s;
+      z-index: 1;
+
+      div:nth-child(1) {
+        transform: rotate(-45deg) translate(-6px, 3px);
+      }
+
+      div:nth-child(2) {
+        opacity: 0;
+      }
+      div:nth-child(3) {
+        transform: rotate(45deg) translate(-8px, -6px);
+      }
+    }
+
+    @media screen and (min-width: 50rem) {
+      display: none;
+    }
+  }
+}
+// HEADER
+
+// CONTENT
+.content {
+  max-width: 75rem;
+  margin: auto;
+
+  @media screen and (min-width: 50rem) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-content: center;
+  }
+
+  &__main {
+    margin-bottom: 1.5938rem;
+
+    @media screen and (min-width: 50rem) {
+      align-self: center;
+    }
+  }
+
+  &__title {
+    font-family: var(--lora);
+    font-weight: 500;
+    font-size: 2.25rem;
+    line-height: 2.875rem;
+    margin-bottom: 1.5625rem;
+
+    @media screen and (min-width: 50rem) {
+      font-size: 3rem;
+      line-height: 3.8125rem;
+      margin-bottom: 2.5rem;
+    }
+  }
+
+  &__body {
+    font-size: 0.875rem;
+    font-weight: 300;
+    line-height: 1.0625rem;
+    margin-bottom: 1.5625rem;
+    max-width: 15.625rem;
+
+    @media screen and (min-width: 50rem) {
+      font-size: 1.5rem;
+      line-height: 1.8125rem;
+      max-width: 25.625rem;
+      margin-bottom: 2.5rem;
+    }
+  }
+
+  &__arrow {
+    display: inline-block;
+    width: 1.1875rem;
+    height: 0.5rem;
+    background: url('../assets/icon/arrow.svg');
+  }
+
+  &__anchor {
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 1.0625rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  &__figure {
+    margin-bottom: 5.3125rem;
+    max-width: 46.0625rem;
+    min-width: 21.875rem;
+    position: relative;
+
+    @media screen and (min-width: 50rem) {
+      margin-bottom: 0;
+    }
+  }
+
+  &__image {
+    width: 100%;
+  }
+
+  &__card {
+    box-shadow: 0px 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+    background-color: var(--black);
+    bottom: -5rem;
+    padding: 1rem 1.1875rem 1.5625rem;
+    position: absolute;
+    right: 0.75rem;
+    width: 100%;
+    max-width: 18.75rem;
+
+    @media screen and (min-width: 50rem) {
+      max-width: 25.625rem;
+      right: 2.5rem;
+    }
+
+    &_content {
+      align-items: center;
+      display: flex;
+      gap: 0.75rem;
+      margin-bottom: 1.125rem;
+
+      @media screen and (min-width: 50rem) {
+        gap: 16px;
+      }
+    }
+
+    &_avatar {
+      border-radius: 50%;
+      height: 2.25rem;
+      width: 2.25rem;
+
+      @media screen and (min-width: 50rem) {
+        height: 3.125rem;
+        width: 3.125rem;
+      }
+    }
+
+    &_name {
+      font-weight: 500;
+      font-size: 0.75rem;
+      line-height: 0.9375rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+
+      @media screen and (min-width: 50rem) {
+        font-size: 0.875rem;
+        gap: 0.5rem;
+        line-height: 1.0625rem;
+      }
+
+      &::after {
+        content: 'Interior designer';
+        font-weight: 500;
+        font-size: 0.625rem;
+        line-height: 0.75rem;
+        color: var(--gray);
+      }
+    }
+
+    &_body {
+      font-family: var(--lora);
+      font-weight: 700;
+      font-size: 1.125rem;
+      line-height: 1.4375rem;
+      width: 10.9375rem;
+
+      @media screen and (min-width: 50rem) {
+        font-size: 1.5rem;
+        line-height: 1.9375rem;
+        width: 17.9375rem;
+      }
+    }
+  }
+}
+// CONTENT
+
+//FOOTER
+.footer {
+  color: var(--gray);
+  padding: 60px 0 24px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+
+  &__strong {
+    font-weight: 700;
+  }
+}
+//FOOTER

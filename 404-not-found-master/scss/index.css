@@ -103,7 +103,7 @@ a {
   .app__container {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[2];
+    -ms-grid-columns: repeat(2, 1fr);
         grid-template-columns: repeat(2, 1fr);
   }
   .app__body {

@@ -32,9 +32,9 @@
 .team {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
+  -ms-grid-columns: repeat(2, 1fr);
       grid-template-columns: repeat(2, 1fr);
-  -ms-grid-rows: (300px)[3];
+  -ms-grid-rows: repeat(3, 300px);
       grid-template-rows: repeat(3, 300px);
   gap: 18px;
   margin: 0 auto;
@@ -43,7 +43,7 @@
 .team__avatar {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (auto)[2];
+  -ms-grid-columns: repeat(2, auto);
       grid-template-columns: repeat(2, auto);
   -ms-grid-rows: 215px 29px;
       grid-template-rows: 215px 29px;
@@ -117,9 +117,9 @@
     line-height: 27px;
   }
   .team {
-    -ms-grid-columns: (auto)[3];
+    -ms-grid-columns: repeat(3, auto);
         grid-template-columns: repeat(3, auto);
-    -ms-grid-rows: (450px)[2];
+    -ms-grid-rows: repeat(2, 450px);
         grid-template-rows: repeat(2, 450px);
   }
   .team__avatar {

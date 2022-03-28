@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Playfair+Display:ital,wght@0,700;1,400&display=swap');
+
+:root {
+  //Font
+  --montserrat: 'Montserrat', sans-serif;
+  --playfair: 'Playfair Display', serif;
+
+  //Colors
+  --gold: #f2994a;
+  --grayOne: #333333;
+  --grayTwo: #4f4f4f;
+  --grayThree: #828282;
+  --grayFour: #bdbdbd;
+}
+
+html,
+body {
+  color: var(--grayOne);
+  font-family: var(--montserrat);
+  min-width: 23.4375rem;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.spaceLateral {
+  padding: 0 0.75rem;
+
+  @media screen and (min-width: 50rem) {
+    padding: 0 2.5rem;
+  }
+
+  @media screen and (min-width: 1024px) {
+    padding: 0;
+  }
+}
+
+.strong {
+  font-weight: 700;
+}
+
+.italic {
+  font-weight: 500;
+  font-style: italic;
+}
+
+.main-title {
+  font-family: var(--playfair);
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-bottom: 0.75rem;
+  color: #000000;
+
+  @media screen and (min-width: 50rem) {
+    font-size: 3rem;
+    line-height: 4rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.title {
+  font-family: var(--playfair);
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+
+  @media screen and (min-width: 50rem) {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+
+.subTitle {
+  font-family: var(--playfair);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.3125rem;
+
+  @media screen and (min-width: 50rem) {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+  }
+}

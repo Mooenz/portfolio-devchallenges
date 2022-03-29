@@ -28,21 +28,21 @@ Los proyectos pertenecen a [Dev Challenges](https://devchallenges.io/).
 
 ### My team page
 
-[Look at code here](https://github.com/mooenz/portfolio-devchallenges/tree/main/)
+[Look at code here](https://github.com/mooenz/portfolio-devchallenges/tree/main/my-team-page-master)
 
-![Desktop](.//solution/mooenz-desktop.jpg)
+![Desktop](./my-team-page-master/solution/mooenz-desktop.jpg)
 
 ### Interior Consultant
 
-[Look at code here](https://github.com/mooenz/portfolio-devchallenges/tree/main/)
+[Look at code here](https://github.com/mooenz/portfolio-devchallenges/tree/main/interior-consultant-master)
 
-![Desktop](.//solution/mooenz-desktop.jpg)
+![Desktop](./interior-consultant-master/solution/mooenz-desktop.jpg)
 
 ### Recipe page
 
-[Look at code here](https://github.com/mooenz/portfolio-devchallenges/tree/main/)
+[Look at code here](https://github.com/mooenz/portfolio-devchallenges/tree/main/recipe-page-master)
 
-![Desktop](.//solution/mooenz-desktop.jpg)
+![Desktop](./recipe-page-master/solution/mooenz-desktop.jpg)
 
 ### My Gallery
 

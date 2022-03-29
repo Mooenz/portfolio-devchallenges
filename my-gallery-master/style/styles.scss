@@ -1,0 +1,169 @@
+.main {
+  margin: 1.875rem 0 1.5rem;
+
+  @media screen and (min-width: 50rem) {
+    margin: 2.75rem 0 134px;
+  }
+}
+
+.avatar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.75rem;
+
+  @media screen and (min-width: 50rem) {
+    margin-bottom: 1.5rem;
+  }
+
+  &__image {
+    height: 6.375rem;
+    width: 6.375rem;
+    border-radius: 1rem;
+    margin-bottom: 0.75rem;
+
+    @media screen and (min-width: 50rem) {
+      height: 9.75rem;
+      width: 9.75rem;
+    }
+  }
+
+  &__name {
+    font-size: 0.875rem;
+    line-height: 1.0625rem;
+    margin-bottom: 0.25rem;
+
+    @media screen and (min-width: 50rem) {
+      font-size: 1.5rem;
+      line-height: 1.8125rem;
+    }
+  }
+
+  &__from {
+    font-size: 10px;
+    line-height: 0.75rem;
+    color: var(--grayFrom);
+
+    @media screen and (min-width: 50rem) {
+      font-size: 0.875rem;
+      line-height: 1.0625rem;
+    }
+  }
+}
+
+.stats {
+  width: 100%;
+  max-width: 16.875rem;
+  margin: 0 auto 39px;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+
+  @media screen and (min-width: 50rem) {
+    margin-bottom: 4rem;
+    max-width: 21.75rem;
+  }
+
+  &__card {
+    background-color: var(--grayBgCard);
+    border-radius: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 52px;
+    width: 78px;
+
+    @media screen and (min-width: 50rem) {
+      height: 67px;
+      width: 100px;
+    }
+  }
+
+  &__result {
+    font-size: 0.75rem;
+    line-height: 0.9375rem;
+
+    @media screen and (min-width: 50rem) {
+      font-size: 1.125rem;
+      line-height: 1.375rem;
+    }
+  }
+
+  &__title {
+    font-size: 0.75rem;
+    line-height: 0.9375rem;
+    color: var(--grayTextCard);
+
+    @media screen and (min-width: 50rem) {
+      font-size: 0.875rem;
+      line-height: 1.0625rem;
+    }
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas:
+    'one two two'
+    'three three four'
+    'five six four';
+  gap: 0.75rem;
+  max-width: 60rem;
+  margin: auto;
+
+  @media screen and (min-width: 1024px) {
+    gap: 32px;
+  }
+
+  &__image {
+    object-fit: cover;
+    border-radius: 0.75rem;
+    filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.15));
+    width: 100%;
+    height: 100%;
+
+    &:nth-child(1) {
+      grid-area: one;
+    }
+
+    &:nth-child(2) {
+      grid-area: two;
+    }
+
+    &:nth-child(3) {
+      grid-area: three;
+    }
+
+    &:nth-child(4) {
+      grid-area: four;
+    }
+
+    &:nth-child(5) {
+      grid-area: five;
+    }
+
+    &:nth-child(6) {
+      grid-area: six;
+    }
+  }
+}
+
+.footer {
+  padding-bottom: 1.5rem;
+
+  &__body {
+    text-align: center;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.0625rem;
+    color: var(--grayFooter);
+  }
+
+  &__strong {
+    font-weight: 700;
+  }
+}

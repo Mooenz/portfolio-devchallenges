@@ -1,0 +1,229 @@
+.main {
+  margin: 1.875rem 0 1.5rem;
+}
+
+@media screen and (min-width: 50rem) {
+  .main {
+    margin: 2.75rem 0 134px;
+  }
+}
+
+.avatar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+@media screen and (min-width: 50rem) {
+  .avatar {
+    margin-bottom: 1.5rem;
+  }
+}
+
+.avatar__image {
+  height: 6.375rem;
+  width: 6.375rem;
+  border-radius: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+@media screen and (min-width: 50rem) {
+  .avatar__image {
+    height: 9.75rem;
+    width: 9.75rem;
+  }
+}
+
+.avatar__name {
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  margin-bottom: 0.25rem;
+}
+
+@media screen and (min-width: 50rem) {
+  .avatar__name {
+    font-size: 1.5rem;
+    line-height: 1.8125rem;
+  }
+}
+
+.avatar__from {
+  font-size: 10px;
+  line-height: 0.75rem;
+  color: var(--grayFrom);
+}
+
+@media screen and (min-width: 50rem) {
+  .avatar__from {
+    font-size: 0.875rem;
+    line-height: 1.0625rem;
+  }
+}
+
+.stats {
+  width: 100%;
+  max-width: 16.875rem;
+  margin: 0 auto 39px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 0.75rem;
+}
+
+@media screen and (min-width: 50rem) {
+  .stats {
+    margin-bottom: 4rem;
+    max-width: 21.75rem;
+  }
+}
+
+.stats__card {
+  background-color: var(--grayBgCard);
+  border-radius: 0.75rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 52px;
+  width: 78px;
+}
+
+@media screen and (min-width: 50rem) {
+  .stats__card {
+    height: 67px;
+    width: 100px;
+  }
+}
+
+.stats__result {
+  font-size: 0.75rem;
+  line-height: 0.9375rem;
+}
+
+@media screen and (min-width: 50rem) {
+  .stats__result {
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+  }
+}
+
+.stats__title {
+  font-size: 0.75rem;
+  line-height: 0.9375rem;
+  color: var(--grayTextCard);
+}
+
+@media screen and (min-width: 50rem) {
+  .stats__title {
+    font-size: 0.875rem;
+    line-height: 1.0625rem;
+  }
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: (auto)[3];
+      grid-template-rows: repeat(3, auto);
+      grid-template-areas: 'one two two' 'three three four' 'five six four';
+  gap: 0.75rem;
+  max-width: 60rem;
+  margin: auto;
+}
+
+@media screen and (min-width: 1024px) {
+  .grid {
+    gap: 32px;
+  }
+}
+
+.grid__image {
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 0.75rem;
+  -webkit-filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.15));
+          filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.15));
+  width: 100%;
+  height: 100%;
+}
+
+.grid__image:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: one;
+}
+
+.grid__image:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: two;
+}
+
+.grid__image:nth-child(3) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: three;
+}
+
+.grid__image:nth-child(4) {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 3;
+  grid-area: four;
+}
+
+.grid__image:nth-child(5) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: five;
+}
+
+.grid__image:nth-child(6) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: six;
+}
+
+.footer {
+  padding-bottom: 1.5rem;
+}
+
+.footer__body {
+  text-align: center;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.0625rem;
+  color: var(--grayFooter);
+}
+
+.footer__strong {
+  font-weight: 700;
+}
+/*# sourceMappingURL=styles.css.map */

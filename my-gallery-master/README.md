@@ -39,21 +39,6 @@
 ![screenshot](./solution/mooenz-desktop.jpg)
 ![screenshot](./solution/mooenz-mobile.jpg)
 
-## Table of Contents
-
-- [Table of Contents](#table-of-contents)
-- [Overview](#overview)
-- [Table of Contents](#table-of-contents-1)
-- [Overview](#overview-1)
-- [Features](#features)
-- [Acknowledgements](#acknowledgements)
-- [Contact](#contact)
-
-## Overview
-
-![screenshot](./solution/mooenz-desktop.jpg)
-![screenshot](./solution/mooenz-mobile.jpg)
-
 ## Features
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/gcbWLxG6wdennelX7b8I) was to build an application to complete the given user stories.

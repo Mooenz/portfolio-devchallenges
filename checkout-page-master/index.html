@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+      maximum-scale=5"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="icon" href="./assets/favicon.ico" />
+    <title>Checkout Page - Mooenz</title>
+  </head>
+  <body>
+    <main class="main">
+      <h1 class="title">Checkout</h1>
+      <section class="content">
+        <section class="info">
+          <div class="info__articles">
+            <div class="info__article">
+              <img
+                class="info__image"
+                src="./assets/photo1.png"
+                alt="Vintage Backbag"
+              />
+              <div class="info__content">
+                <div>
+                  <p class="info__title">Vintage Backbag</p>
+                  <div class="info__price">
+                    <p>$54.99</p>
+                    <p>$94.99</p>
+                  </div>
+                </div>
+                <div class="info__accountant">
+                  <div class="info__res">-</div>
+                  <div class="info__result">1</div>
+                  <div class="info__sum">+</div>
+                </div>
+              </div>
+            </div>
+            <div class="info__article">
+              <img
+                class="info__image"
+                src="./assets/photo2.png"
+                alt="Levi Shoes"
+              />
+              <div class="info__content">
+                <div>
+                  <p class="info__title">Levi Shoes</p>
+                  <div class="info__price">
+                    <p>$74.99</p>
+                    <p>$124.99</p>
+                  </div>
+                </div>
+                <div class="info__accountant">
+                  <div class="info__res">-</div>
+                  <div class="info__result">1</div>
+                  <div class="info__sum">+</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="info__totals">
+            <div>
+              <p>Shipping</p>
+              <p>$19</p>
+            </div>
+            <div>
+              <p>Total</p>
+              <p>$148.98</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="form">
+          <div class="form__contacto">
+            <h2 class="form__title">Contact information</h2>
+            <div>
+              <label class="form__label" for="mail">E-mail</label>
+              <div class="form__group">
+                <input
+                  class="form__input"
+                  type="email"
+                  name="mail"
+                  id="mail"
+                  placeholder="Enter your email..."
+                />
+                <span class="material-icons">email</span>
+              </div>
+            </div>
+            <div>
+              <label class="form__label" for="phone">Phone</label>
+              <div class="form__group">
+                <input
+                  class="form__input"
+                  type="tel"
+                  name="phone"
+                  id="phone"
+                  placeholder="Enter your phone..."
+                />
+                <span class="material-icons">call</span>
+              </div>
+            </div>
+          </div>
+          <div class="form__contacto">
+            <h2 class="form__title">Shipping address</h2>
+            <div>
+              <label class="form__label" for="name">Full name</label>
+              <div class="form__group">
+                <input
+                  class="form__input"
+                  type="text"
+                  name="name"
+                  id="name"
+                  value="Rodney Cotton"
+                  placeholder="Your name"
+                />
+                <span class="material-icons">account_circle</span>
+              </div>
+            </div>
+            <div>
+              <label class="form__label" for="address">Address</label>
+              <div class="form__group">
+                <input
+                  class="form__input"
+                  type="email "
+                  name="address"
+                  id="address"
+                  placeholder="Your address.."
+                />
+                <span class="material-icons">home</span>
+              </div>
+            </div>
+            <div>
+              <label class="form__label" for="city">City</label>
+              <div class="form__group">
+                <input
+                  class="form__input"
+                  type="text"
+                  name="city"
+                  id="city"
+                  placeholder="Your city.."
+                />
+                <span class="material-icons">location_city</span>
+              </div>
+            </div>
+            <div class="form__groupItems">
+              <div>
+                <label class="form__label" for="">Country</label>
+                <div class="form__group">
+                  <select name="Your country..">
+                    <option value="Colombia">Colombia</option>
+                    <option value="Ucrania">Ucrania</option>
+                    <option value="United States">United States</option>
+                    <option value="Rusia">Rusia</option>
+                  </select>
+                  <span class="material-icons">public</span>
+                </div>
+              </div>
+              <div>
+                <label class="form__label" for="postal">Postal code</label>
+                <div class="form__group">
+                  <input
+                    class="form__input"
+                    type="number"
+                    name="postal"
+                    id="postal"
+                    placeholder="Your postal code.."
+                  />
+                  <span class="material-icons">markunread_mailbox</span>
+                </div>
+              </div>
+            </div>
+            <div class="form__groupCheck">
+              <input
+                class="form__checkbox"
+                type="checkbox"
+                name="checkSave"
+                id="checkSave"
+              />
+              <label class="form__label" for="checkSave"
+                >Save this information for next time</label
+              >
+            </div>
+            <button class="form__button" type="submit">Continue</button>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>
+        created by <span class="footer__strong">username</span> -
+        devChallenges.io
+      </p>
+    </footer>
+    <script src="./index.js" defer></script>
+  </body>
+</html>

@@ -153,13 +153,15 @@
               <div>
                 <label class="form__label" for="">Country</label>
                 <div class="form__group">
-                  <select name="Your country..">
+                  <span class="material-icons">public</span>
+                  <select class="form__select">
+                    <option hidden selected>Your country..</option>
                     <option value="Colombia">Colombia</option>
                     <option value="Ucrania">Ucrania</option>
                     <option value="United States">United States</option>
                     <option value="Rusia">Rusia</option>
                   </select>
-                  <span class="material-icons">public</span>
+                  <span class="material-icons">expand_more</span>
                 </div>
               </div>
               <div>
@@ -167,7 +169,7 @@
                 <div class="form__group">
                   <input
                     class="form__input"
-                    type="number"
+                    type="text"
                     name="postal"
                     id="postal"
                     placeholder="Your postal code.."

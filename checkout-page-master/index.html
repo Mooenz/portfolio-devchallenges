@@ -37,9 +37,9 @@
                   </div>
                 </div>
                 <div class="info__accountant">
-                  <div class="info__res">-</div>
+                  <button class="info__res">-</button>
                   <div class="info__result">1</div>
-                  <div class="info__sum">+</div>
+                  <button class="info__sum">+</button>
                 </div>
               </div>
             </div>
@@ -58,9 +58,9 @@
                   </div>
                 </div>
                 <div class="info__accountant">
-                  <div class="info__res">-</div>
+                  <button class="info__res">-</button>
                   <div class="info__result">1</div>
-                  <div class="info__sum">+</div>
+                  <button class="info__sum">+</button>
                 </div>
               </div>
             </div>
@@ -80,7 +80,7 @@
         <section class="form">
           <div class="form__contacto">
             <h2 class="form__title">Contact information</h2>
-            <div>
+            <div class="form__groupInput">
               <label class="form__label" for="mail">E-mail</label>
               <div class="form__group">
                 <input
@@ -93,7 +93,7 @@
                 <span class="material-icons">email</span>
               </div>
             </div>
-            <div>
+            <div class="form__groupInput">
               <label class="form__label" for="phone">Phone</label>
               <div class="form__group">
                 <input
@@ -109,7 +109,7 @@
           </div>
           <div class="form__contacto">
             <h2 class="form__title">Shipping address</h2>
-            <div>
+            <div class="form__groupInput">
               <label class="form__label" for="name">Full name</label>
               <div class="form__group">
                 <input
@@ -123,7 +123,7 @@
                 <span class="material-icons">account_circle</span>
               </div>
             </div>
-            <div>
+            <div class="form__groupInput">
               <label class="form__label" for="address">Address</label>
               <div class="form__group">
                 <input
@@ -136,7 +136,7 @@
                 <span class="material-icons">home</span>
               </div>
             </div>
-            <div>
+            <div class="form__groupInput">
               <label class="form__label" for="city">City</label>
               <div class="form__group">
                 <input
@@ -150,21 +150,21 @@
               </div>
             </div>
             <div class="form__groupItems">
-              <div>
-                <label class="form__label" for="">Country</label>
+              <div class="form__groupInput">
+                <label class="form__label" for="select">Country</label>
                 <div class="form__group">
-                  <span class="material-icons">public</span>
-                  <select class="form__select">
-                    <option hidden selected>Your country..</option>
+                  <select class="form__select" id="select">
+                    <option value="" hidden selected>Your country..</option>
                     <option value="Colombia">Colombia</option>
                     <option value="Ucrania">Ucrania</option>
                     <option value="United States">United States</option>
                     <option value="Rusia">Rusia</option>
                   </select>
+                  <span class="material-icons">public</span>
                   <span class="material-icons">expand_more</span>
                 </div>
               </div>
-              <div>
+              <div class="form__groupInput">
                 <label class="form__label" for="postal">Postal code</label>
                 <div class="form__group">
                   <input
@@ -194,6 +194,7 @@
         </section>
       </section>
     </main>
+    <p class="message">Successful Process</p>
 
     <footer class="footer">
       <p>

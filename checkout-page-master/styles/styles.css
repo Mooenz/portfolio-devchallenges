@@ -191,7 +191,7 @@
 }
 
 .form .error .form__label::after {
-  content: '* Obligatorio';
+  content: '* Required';
   color: red;
 }
 

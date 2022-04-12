@@ -139,7 +139,7 @@
     .form__label {
       color: red;
       &::after {
-        content: '* Obligatorio';
+        content: '* Required';
         color: red;
       }
     }

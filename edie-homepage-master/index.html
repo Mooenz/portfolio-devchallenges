@@ -5,91 +5,215 @@
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1,
-  maximum-scale=5"
+      maximum-scale=5"
     />
-
-    <link rel="icon" href="devchallenges.png" />
-
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="https://devchallenges.io/"
-    />
-
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-
-    <title>Devchallenges</title>
-
-    <style>
-      body {
-        font-family: "Poppins", sans-serif;
-      }
-
-      ul {
-        padding-left: 24px;
-      }
-
-      li {
-        margin-bottom: 8px;
-      }
-
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
-
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
-
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
-
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
-
-      .welcome-text a {
-        color: #f7542e;
-      }
-    </style>
+    <link rel="icon" href="./assets/icons/favicon.ico" />
+    <title>Edie homepage - Mooenz</title>
   </head>
   <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
+    <nav class="nav">
+      <div class="logo"><p>Edie</p></div>
+      <div class="burger">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <ul class="nav__links">
+        <li class="nav__link"><a href="#">Home</a></li>
+        <li class="nav__link"><a href="#">Services</a></li>
+        <li class="nav__link"><a href="#">Our Works</a></li>
+        <li class="nav__link"><a href="#">Clients</a></li>
+        <li class="nav__link"><a href="#">Contact</a></li>
+      </ul>
+    </nav>
 
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
+    <header class="header">
+      <p class="header__subtitle">Unhappy with your website?</p>
+      <h1 class="header__title">We create beautiful and fast web services</h1>
+      <div class="header__img">
+        <picture class="header__img-Container">
+          <img
+            class="header__image"
+            src="./assets/img/heroImage.jpg"
+            alt="hero team"
+          />
+        </picture>
+      </div>
+      <div class="header__content">
+        <h2 class="header__title">Story, emotion and purpose</h2>
+        <p class="header__body"></p>
+      </div>
+      <div class="contact">
+        <label class="contact__label" for="inputEmail"
+          >Want us to contact you?</label
+        >
+        <input
+          class="contact__input"
+          type="email"
+          name="email"
+          id="inputEmail"
+          placeholder="Email"
+        />
+        <button class="contact__button">Join</button>
+      </div>
+    </header>
+    <main>
+      <section class="services">
+        <h2 class="title">We offer high demand services</h2>
+        <div class="services__cards">
+          <div class="services__card">
+            <span class="services__icon"></span>
+            <h2 class="services__title">UI/UX Design</h2>
+            <p class="services__body">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a
+              metus ac nulla consequat aliquet id quis turpis.
+            </p>
+            <div class="services__button"><a href="#">Get started</a></div>
+          </div>
+
+          <div class="services__card">
+            <span class="services__icon"></span>
+            <h2 class="services__title">Front End</h2>
+            <p class="services__body">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a
+              metus ac nulla consequat aliquet id quis turpis.
+            </p>
+            <div class="services__button"><a href="#">Get started</a></div>
+          </div>
+
+          <div class="services__card">
+            <span class="services__icon"></span>
+            <h2 class="services__title">Back End</h2>
+            <p class="services__body">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a
+              metus ac nulla consequat aliquet id quis turpis.
+            </p>
+            <div class="services__button"><a href="#">Get started</a></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="design">
+        <h2 class="title"></h2>
+        <div class="design__cards">
+          <div class="design__card">
+            <picture>
+              <img
+                src="./assets/img/smarthome.jpg"
+                alt="Smart home dashboard"
+              />
+            </picture>
+            <p class="design__subtitle">Full stack application</p>
+            <h3 class="design__title">Smart home dashboard</h3>
+          </div>
+
+          <div class="design__card">
+            <picture>
+              <img src="./assets/img/onboard.png" alt="Onboard application" />
+            </picture>
+            <p class="design__subtitle">UX/UI design</p>
+            <h3 class="design__title">Onboard application</h3>
+          </div>
+
+          <div class="design__card">
+            <picture>
+              <img src="./assets/img/booking.png" alt="Booking system" />
+            </picture>
+            <p class="design__subtitle">Mobile application</p>
+            <h3 class="design__title">Booking system</h3>
+          </div>
+
+          <div class="design__card">
+            <picture>
+              <img
+                src="./assets/img/juice-product.png"
+                alt="Juice product homepage"
+              />
+            </picture>
+            <p class="design__subtitle">Front End application</p>
+            <h3 class="design__title">Juice product homepage</h3>
+          </div>
+        </div>
+        <a class="desing__anchor" href="#"
+          >see more <span class="design__icon"></span
+        ></a>
+      </section>
+
+      <section class="team">
+        <div class="team__content">
+          <div>
+            <p class="team__subtitle">Meet the team</p>
+            <h2 class="team__title">We are chilled and a laidback team</h2>
+            <p class="team__body">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
+          <d iv class="team__images">
+            <div class="team__imgLeft">
+              <picture>
+                <img src="./assets/img/person3.png" alt="person 3" />
+              </picture>
+            </div>
+            <div class="team__imgRight">
+              <picture>
+                <img src="./assets/img/person1.png" alt="person 1" />
+
+                <img src="./assets/img/person2.png" alt="person 2" />
+              </picture>
+            </div>
+          </d>
+        </div>
+      </section>
+
+      <section class="testimoni">
+        <p class="testimoni__body">
+          “Fast and outstanding resutls. Edie understands their customer’s
+          needs. They have a young and talented team.”
         </p>
+        <div class="testimoni__profile">
+          <span class="testimoni__icon"></span>
+          <div>
+            <p class="testimoni__name"></p>
+            <p class="testimoni__work"></p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <ul class="footer__list">
+        <li class="footer__item"><a href="#">Home</a></li>
+        <li class="footer__item"><a href="#">Services</a></li>
+        <li class="footer__item"><a href="#">Our Works</a></li>
+        <li class="footer__item"><a href="#">Clients</a></li>
+        <li class="footer__item"><a href="#">Contact</a></li>
+      </ul>
+
+      <div>
+        <div class="logo"><p></p></div>
+        <div class="footer__socialMedia">
+          <span class="footer__icon"></span>
+          <span class="footer__icon"></span>
+          <span class="footer__icon"></span>
+        </div>
       </div>
 
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
-      </ul>
-    </div>
+      <div class="contact">
+        <label class="contact__label" for="inputFooterEmail"
+          >Want us to contact you?</label
+        >
+        <input
+          class="contact__input"
+          type="email"
+          name="email"
+          id="inputFooterEmail"
+          placeholder="Email"
+        />
+        <button class="contact__button">Join</button>
+      </div>
+      <p class="footer__body">
+        created by <span class="footer__strong">Mooenz</span> - devChallenges.io
+      </p>
+    </footer>
   </body>
 </html>

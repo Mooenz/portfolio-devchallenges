@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@800&family=Poppins:wght@300;400;500;700&display=swap");
+:root {
+  --blue: #2d9cdb;
+  --green: #27ae60;
+  --red: #eb5757;
+  --purple: #100E1D;
+  --grayOne: #333333;
+  --grayTwo: #4f4f4f;
+  --grayThree: #828282;
+  --graySix: #f2f2f2;
+  --heebo:  'Heebo', sans-serif;
+  --poppins: 'Poppins', sans-serif;
+  --light: 300;
+  --regular: 400;
+  --medium: 500;
+  --bold: 700;
+  --black: 800;
+  --h1: 1.5rem;
+  --h2: 1.5rem;
+  --h3: 1.125rem;
+  --normal-font: 1rem;
+  --small-font-alt: 0.875rem;
+  --small-font: 0.75rem;
+  --smaller-font: 0.625rem;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  min-width: 320px;
+  font-family: var(--poppins);
+  color: var(--grayOne);
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: var(--grayOne);
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+.spaceLateral {
+  padding-left: 10px;
+  padding-right: 17px;
+}
+
+@media screen and (min-width: 767px) {
+  .spaceLateral {
+    padding: 0;
+  }
+}
+/*# sourceMappingURL=main.css.map */

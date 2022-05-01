@@ -49,11 +49,9 @@ This application/site was created as a submission to a [DevChallenges](https://d
 ## Acknowledgements
 
 - [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
-- [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- Website [mooenz.me](https://www.mooenz.me/)
+- GitHub [@mooenz](https://github.com/Mooenz)
+- Twitter [@mooenzdev](https://twitter.com/MooenzDev)

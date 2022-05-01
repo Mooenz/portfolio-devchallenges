@@ -54,13 +54,45 @@ img {
   width: 100%;
 }
 
-.spaceLateral {
+.px {
   padding-left: 10px;
   padding-right: 17px;
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
 }
 
 @media screen and (min-width: 767px) {
-  .spaceLateral {
+  .px {
+    padding: 0 40px;
+  }
+}
+
+@media screen and (min-width: 1372px) {
+  .px {
+    padding: 0;
+  }
+}
+
+.px-30 {
+  padding: 0 30px;
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
+}
+
+@media screen and (min-width: 900px) {
+  .px-30 {
+    padding: 0;
+  }
+}
+
+.px-40 {
+  padding: 0 40px;
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
+}
+
+@media screen and (min-width: 1200px) {
+  .px-40 {
     padding: 0;
   }
 }

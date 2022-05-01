@@ -61,14 +61,34 @@ img {
   width: 100%;
 }
 
-.spaceLateral {
+.px {
   padding-left: 10px;
   padding-right: 17px;
+  transition-duration: .5s;
 
   @media screen and (min-width:767px) {
+    padding: 0 40px;
+  }
+
+  @media screen and (min-width: 1372px) {
     padding: 0;
   }
 }
 
-@media screen and (min-width: 900px) {
+.px-30 {
+  padding: 0 30px;
+  transition-duration: .5s;
+
+  @media screen and (min-width: 900px) {
+    padding: 0;
+  }
+}
+
+.px-40 {
+  padding: 0 40px;
+  transition-duration: .5s;
+
+  @media screen and (min-width: 1200px) {
+    padding: 0;
+  }
 }

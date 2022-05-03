@@ -58,12 +58,12 @@ Los proyectos pertenecen a [Dev Challenges](https://devchallenges.io/).
 
 ### Edie homepage
 
-[Look at code here](https://github.com/mooenz/portfolio-devchallenges/tree/main/)
+[Look at code here](https://github.com/mooenz/portfolio-devchallenges/tree/main/edie-homepage-master)
 
-![Desktop](.//solution/mooenz-desktop.jpg)
+![Desktop](./edie-homepage-master/solution/mooenz-desktop.jpg)
 
 ### Portfolio
 
-[Look at code here](https://github.com/mooenz/portfolio-devchallenges/tree/main/)
+[Look at code here](https://github.com/mooenz/portfolio-devchallenges/tree/main/portfolio-master)
 
-![Desktop](.//solution/mooenz-desktop.jpg)
+![Desktop](./portfolio-master/solution/mooenz-desktop.jpg)

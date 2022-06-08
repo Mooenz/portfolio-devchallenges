@@ -1,8 +1,8 @@
 # **Portfolio DevChallenges**
 
-Pequeño fragmentos de HTML, CSS/SCSS y JS :
+Challenges for practice to htm, css/scss and js :
 
-## **Tabla de Contenido**
+## **Table of contents**
 
 - [**Portfolio DevChallenges**](#portfolio-devchallenges)
   - [**Tabla de Contenido**](#tabla-de-contenido)
@@ -16,7 +16,7 @@ Pequeño fragmentos de HTML, CSS/SCSS y JS :
     - [Edie homepage](#edie-homepage)
     - [Portfolio](#portfolio)
 
-Los proyectos pertenecen a [Dev Challenges](https://devchallenges.io/).
+Projects belong to [Dev Challenges](https://devchallenges.io/).
 
 ## **Responsive Web Developer**
 

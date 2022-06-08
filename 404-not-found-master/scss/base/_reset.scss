@@ -1,0 +1,22 @@
+html,
+body {
+  font-family: 'Space Mono', monospace;
+  font-size: 62.5%;
+  color: var(--gray1);
+  height: 949px;
+
+  @media screen and (min-width: 900px) {
+    height: 100vh;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: var(--gray3);
+}

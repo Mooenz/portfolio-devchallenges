@@ -1,0 +1,11 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 375px;
+  padding: 20px 24px;
+
+  @media screen and (min-width: 900px) {
+    padding: 40px 77px 24px;
+  }
+}

@@ -1,0 +1,13 @@
+.button {
+  border: none;
+  width: 216px;
+  height: 68px;
+  font-family: 'Space Mono', monospace;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 2rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: var(--white);
+  background: var(--gray1);
+}

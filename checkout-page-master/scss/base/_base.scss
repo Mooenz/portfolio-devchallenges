@@ -1,0 +1,19 @@
+.title {
+  font-weight: 600;
+  font-size: var(--title);
+  margin-bottom: 20px;
+}
+
+.material-icons {
+  color: var(--gray3);
+  font-size: 15px;
+  position: absolute;
+  top: calc(50% - 7.5px);
+  left: 12px;
+
+  @media screen and (min-width: 900px) {
+    font-size: 20px;
+    top: calc(50% - 14px);
+    left: 14px;
+  }
+}

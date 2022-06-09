@@ -1,0 +1,173 @@
+.form {
+  max-width: 465px;
+
+  &__contacto {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 45px;
+  }
+
+  .error {
+    .form__label {
+      color: red;
+      &::after {
+        content: '* Required';
+        color: red;
+      }
+    }
+
+    .form__input,
+    .form__select {
+      border: 1px solid red;
+    }
+
+    .material-icons {
+      color: red;
+    }
+  }
+
+  &__title {
+    font-size: 14px;
+    color: var(--gray1);
+    margin-bottom: 8px;
+  }
+
+  &__label {
+    font-size: 10px;
+    color: var(--gray2);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  &__group {
+    position: relative;
+    width: 100%;
+
+    span:nth-child(3) {
+      right: 12px;
+      left: initial;
+      z-index: -1;
+    }
+  }
+
+  &__input,
+  &__select {
+    height: 40px;
+    width: 100%;
+    border: 1px solid var(--gray3);
+    border-radius: 12px;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    font-size: 12px;
+    color: var(--gray1);
+    font-family: var(--montserrat);
+    font-weight: 600;
+    outline-style: none;
+    padding-left: 40px;
+
+    &:hover {
+      border: 1px solid var(--gold);
+      color: var(--gold);
+    }
+
+    &:hover + .material-icons,
+    &:hover + .material-icons + .material-icons {
+      color: var(--gold);
+    }
+
+    &:focus {
+      border: 1px solid var(--gold);
+      color: var(--gold);
+    }
+
+    &:focus + .material-icons,
+    &:focus + .material-icons + .material-icons {
+      color: var(--gold);
+    }
+  }
+
+  &__groupItems {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 8px;
+  }
+
+  &__groupCheck {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  &__checkbox {
+    height: 15px;
+    width: 15px;
+  }
+
+  &__button {
+    background-color: var(--gold);
+    border: none;
+    color: #fff;
+    width: 166px;
+    height: 54px;
+    border-radius: 12px;
+    align-self: end;
+    font-family: var(--montserrat);
+    font-size: 16px;
+    margin-top: 37px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+
+    &:active {
+      transform: translateY(3px);
+    }
+  }
+
+  &__select {
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  @media screen and (min-width: 900px) {
+    .form {
+      &__contacto {
+        margin-bottom: 58px;
+      }
+
+      &__group {
+        span:nth-child(3) {
+          right: 14px;
+        }
+      }
+
+      &__title {
+        font-size: 18px;
+      }
+
+      &__label {
+        font-size: 12px;
+      }
+
+      &__input,
+      &__select {
+        font-size: 16px;
+        height: 56px;
+      }
+
+      &__groupItems {
+        gap: 31px;
+      }
+
+      &__groupCheck {
+        gap: 11px;
+      }
+
+      &__checkbox {
+        height: 21px;
+        width: 21px;
+      }
+    }
+  }
+}
